@@ -231,17 +231,31 @@
         }
 
         .contact-method {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem;
-            border-radius: 10px;
-            backdrop-filter: blur(10px);
-        }
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+        
+.contact-method strong {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+      .contact-method p {
+    text-align: center;
+    width: 100%;
+}
 
-        .contact-method strong {
-            display: block;
-            font-size: 1.3rem;
-            margin-bottom: 0.5rem;
-        }
+.contact-method a {
+    word-break: break-all;
+}  
 
         .emergency-grid {
             display: grid;
@@ -712,6 +726,7 @@
 </body>
 
 </html>
+
 
 
 
